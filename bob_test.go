@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const N int = 4e8
+const N int = 9e8
 
 // fill ls with b's output, sort ls, cry on repeating elements
 func tsb(b *Bob, ls []uint64, t *testing.T) {
